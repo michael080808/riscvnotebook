@@ -53,21 +53,21 @@
         <th>00</th>
     </tr>
     <tr>
-        <td>I</td>
-        <td colspan="12">imm[11 : 0]</td>
-        <td colspan="5">rs1</td>
-        <td colspan="3">funct3</td>
-        <td colspan="5">rd</td>
-        <td colspan="7">opcode</td>
+        <td align="center">I</td>
+        <td align="center" colspan="12">imm[11 : 0]</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center" colspan="3">funct3</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center" colspan="7">opcode</td>
     </tr>
     <tr>
-        <td>R</td>
-        <td colspan="7">funct7</td>
-        <td colspan="5">rs2</td>
-        <td colspan="5">rs1</td>
-        <td colspan="3">funct3</td>
-        <td colspan="5">rd</td>
-        <td colspan="7">opcode</td>
+        <td align="center">R</td>
+        <td align="center" colspan="7">funct7</td>
+        <td align="center" colspan="5">rs2</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center" colspan="3">funct3</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center" colspan="7">opcode</td>
     </tr>
 </table>
 
@@ -112,234 +112,234 @@
         <th>00</th>
     </tr>
     <tr>
-        <td>ADD</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rs2</td>
-        <td colspan="5">rs1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">ADD</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rs2</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SUB</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rs2</td>
-        <td colspan="5">rs1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SUB</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rs2</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SLL</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rs2</td>
-        <td colspan="5">rs1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SLL</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rs2</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SLT</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rs2</td>
-        <td colspan="5">rs1</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SLT</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rs2</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SLTU</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rs2</td>
-        <td colspan="5">rs1</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SLTU</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rs2</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>XOR</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rs2</td>
-        <td colspan="5">rs1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">XOR</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rs2</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SRL</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rs2</td>
-        <td colspan="5">rs1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SRL</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rs2</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SRA</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rs2</td>
-        <td colspan="5">rs1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SRA</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rs2</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>OR</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rs2</td>
-        <td colspan="5">rs1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">OR</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rs2</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>AND</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rs2</td>
-        <td colspan="5">rs1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">AND</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rs2</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
 </table>
 
@@ -382,169 +382,169 @@
         <th>00</th>
     </tr>
     <tr>
-        <td>ADDI</td>
-        <td colspan="12">imm[11 : 0]</td>
-        <td colspan="5">rs1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">ADDI</td>
+        <td align="center" colspan="12">imm[11 : 0]</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SLLI</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">shamt</td>
-        <td colspan="5">rs1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SLLI</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">shamt</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SLTI</td>
-        <td colspan="12">imm[11 : 0]</td>
-        <td colspan="5">rs1</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SLTI</td>
+        <td align="center" colspan="12">imm[11 : 0]</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SLTIU</td>
-        <td colspan="12">imm[11 : 0]</td>
-        <td colspan="5">rs1</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SLTIU</td>
+        <td align="center" colspan="12">imm[11 : 0]</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>XORI</td>
-        <td colspan="12">imm[11 : 0]</td>
-        <td colspan="5">rs1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">XORI</td>
+        <td align="center" colspan="12">imm[11 : 0]</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SRLI</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">shamt</td>
-        <td colspan="5">rs1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SRLI</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">shamt</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SRAI</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">shamt</td>
-        <td colspan="5">rs1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SRAI</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">shamt</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>ORI</td>
-        <td colspan="12">imm[11 : 0]</td>
-        <td colspan="5">rs1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">ORI</td>
+        <td align="center" colspan="12">imm[11 : 0]</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>ANDI</td>
-        <td colspan="12">imm[11 : 0]</td>
-        <td colspan="5">rs1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">ANDI</td>
+        <td align="center" colspan="12">imm[11 : 0]</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
 </table>
 
@@ -587,119 +587,119 @@
         <th>00</th>
     </tr>
     <tr>
-        <td>ADDW</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rs2</td>
-        <td colspan="5">rs1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">ADDW</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rs2</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SUBW</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rs2</td>
-        <td colspan="5">rs1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SUBW</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rs2</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SLLW</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rs2</td>
-        <td colspan="5">rs1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SLLW</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rs2</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SRLW</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rs2</td>
-        <td colspan="5">rs1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SRLW</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rs2</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SRAW</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rs2</td>
-        <td colspan="5">rs1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SRAW</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rs2</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
 </table>
 
@@ -742,155 +742,155 @@
         <th>00</th>
     </tr>
     <tr>
-        <td>ADDIW</td>
-        <td colspan="12">imm[11 : 0]</td>
-        <td colspan="5">rs1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">ADDIW</td>
+        <td align="center" colspan="12">imm[11 : 0]</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SLLIW</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">shamt</td>
-        <td colspan="5">rs1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SLLIW</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">shamt</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SRLIW</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">shamt</td>
-        <td colspan="5">rs1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SRLIW</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">shamt</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SRAIW</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="5">shamt</td>
-        <td colspan="5">rs1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SRAIW</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="5">shamt</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SLLI</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="6">shamt</td>
-        <td colspan="5">rs1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SLLI</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="6">shamt</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SRLI</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="6">shamt</td>
-        <td colspan="5">rs1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SRLI</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="6">shamt</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
     <tr>
-        <td>SRAI</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td colspan="6">shamt</td>
-        <td colspan="5">rs1</td>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td colspan="5">rd</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
+        <td align="center">SRAI</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center" colspan="6">shamt</td>
+        <td align="center" colspan="5">rs1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center" colspan="5">rd</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
     </tr>
 </table>
 
@@ -909,54 +909,54 @@
         <th>op[0] = 1</th>
     </tr>
     <tr>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>ADD</td>
-        <td>SUB</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">ADD</td>
+        <td align="center">SUB</td>
     </tr>
     <tr>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td colspan="2">SLL</td>
+        <td align="center">0</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center" colspan="2">SLL</td>
     </tr>
     <tr>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td colspan="2">SLT</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center" colspan="2">SLT</td>
     </tr>
     <tr>
-        <td>0</td>
-        <td>1</td>
-        <td>1</td>
-        <td colspan="2">SLTU</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center" colspan="2">SLTU</td>
     </tr>
     <tr>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>        
-        <td colspan="2">XOR</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">0</td>        
+        <td align="center" colspan="2">XOR</td>
     </tr>
     <tr>
-        <td>1</td>
-        <td>0</td>
-        <td>1</td>
-        <td>SRL</td>
-        <td>SRA</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">SRL</td>
+        <td align="center">SRA</td>
     </tr>
     <tr>
-        <td>1</td>
-        <td>1</td>
-        <td>0</td>
-        <td colspan="2">OR</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">0</td>
+        <td align="center" colspan="2">OR</td>
     </tr>
     <tr>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td colspan="2">AND</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center" colspan="2">AND</td>
     </tr>
 </table>
 
