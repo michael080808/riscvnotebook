@@ -53,7 +53,7 @@
         <th>00</th>
     </tr>
     <tr>
-        <td align="center">I</td>
+        <td align="center">TypeI</td>
         <td align="center" colspan="12">imm[11 : 0]</td>
         <td align="center" colspan="5">rs1</td>
         <td align="center" colspan="3">funct3</td>
@@ -61,7 +61,7 @@
         <td align="center" colspan="7">opcode</td>
     </tr>
     <tr>
-        <td align="center">R</td>
+        <td align="center">TypeR</td>
         <td align="center" colspan="7">funct7</td>
         <td align="center" colspan="5">rs2</td>
         <td align="center" colspan="5">rs1</td>
