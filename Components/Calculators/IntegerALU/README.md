@@ -960,3 +960,10 @@
     </tr>
 </table>
 
+除ADD/SUB/SLT/STLU需要使用ArithmeticUnit单元进行加减法运算
+
+其他包括XOR/OR/AND位运算和SLL/SRL/SRA位移运算
+
+均可使用Verilog HDL自动的语法进行实现
+
+SLL/SRL/SRA位移运算自行实现桶形位移器其面积和速度能够有进一步的优化
