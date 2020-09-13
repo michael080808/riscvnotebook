@@ -16,8 +16,8 @@
 
 ## 低位交叉存储单端口RAM基本变宽存储单元
 
-![ISPRAM](../imgs/ISPRAM.png)
+![ISPRAM](./imgs/ISPRAM.png)
 
 ## 双端口RAM基本变宽存储单元
 
-![TDPRAM](../imgs/TDPRAM.png)
+![TDPRAM](./imgs/TDPRAM.png)
