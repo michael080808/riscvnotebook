@@ -2,23 +2,23 @@
 
 module LeftBarrelShifter #
 (
-    parameter type = 0,
-    parameter width = 32
+    parameter TYPE = 0,
+    parameter WIDTH = 32
 )
 (
-    input  wire [$clog2(width) - 1 : 0] W,
-    input  wire [width         - 1 : 0] A,
-    output wire [width         - 1 : 0] Y
+    input  wire [$clog2(WIDTH) - 1 : 0] W,
+    input  wire [WIDTH         - 1 : 0] A,
+    output wire [WIDTH         - 1 : 0] Y
 );
 
 generate
-    if(type)
+    if(TYPE)
     begin
-        LeftBarrelShifterB #(width) Unit (W, A, Y);
+        LeftBarrelShifterB #(WIDTH) Unit (W, A, Y);
     end
     else
     begin
-        LeftBarrelShifterA #(width) Unit (W, A, Y);
+        LeftBarrelShifterA #(WIDTH) Unit (W, A, Y);
     end
 endgenerate
 

@@ -8,14 +8,14 @@
 
 module RegisterUnit #
 (
-    parameter width = 32        // 寄存器位数
+    parameter WIDTH = 32        // 寄存器位数
 )
 (
-    input  reset,               // 同步复位
-    input  clock,               // 同步时钟
-    input  enable,              // 时钟使能
-    input  [width - 1 : 0] D,   // 数据输入
-    output [width - 1 : 0] Q    // 数据输出
+    input  RST,                 // 同步复位
+    input  CLK,                 // 同步时钟
+    input  ENA,                 // 时钟使能
+    input  [WIDTH - 1 : 0] D,   // 数据输入
+    output [WIDTH - 1 : 0] Q    // 数据输出
 );
 
 // FDRE批量实例化
@@ -23,14 +23,14 @@ module RegisterUnit #
 // 数据输入和输出分离
 genvar i;
 generate
-    for(i = 0; i < width; i = i + 1)
+    for(i = 0; i < WIDTH; i = i + 1)
     begin
         FDRE #(.INIT(1'b0))
         FDRE_inst
         (
-            .C(clock),      // 同步时钟
-            .R(reset),      // 同步复位
-            .CE(enable),    // 时钟使能
+            .C(CLK),        // 同步时钟
+            .R(RST),        // 同步复位
+            .CE(ENA),       // 时钟使能
             .D(D[i]),       // 数据输入
             .Q(Q[i])        // 数据输出
         );

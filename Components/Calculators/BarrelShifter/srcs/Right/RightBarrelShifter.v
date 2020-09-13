@@ -2,24 +2,24 @@
 
 module RightBarrelShifter #
 (
-    parameter type = 1,
-    parameter width = 32
+    parameter TYPE = 1,
+    parameter WIDTH = 32
 )
 (
     input  wire OP,
-    input  wire [$clog2(width) - 1 : 0] W,
-    input  wire [width         - 1 : 0] A,
-    output wire [width         - 1 : 0] Y
+    input  wire [$clog2(WIDTH) - 1 : 0] W,
+    input  wire [WIDTH         - 1 : 0] A,
+    output wire [WIDTH         - 1 : 0] Y
 );
 
 generate
-    if(type)
+    if(TYPE)
     begin
-        RightBarrelShifterB #(width) Unit (OP, W, A, Y);
+        RightBarrelShifterB #(WIDTH) Unit (OP, W, A, Y);
     end
     else
     begin
-        RightBarrelShifterA #(width) Unit (OP, W, A, Y);
+        RightBarrelShifterA #(WIDTH) Unit (OP, W, A, Y);
     end
 endgenerate
 
