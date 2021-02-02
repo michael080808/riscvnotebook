@@ -107,7 +107,7 @@ SimpleRAM #
 )
 IMEM
 (
-    .CLK(~clock),              // 时钟输入
+    .CLK(clock),               // 时钟输入
     .RST(reset),               // 复位输入
     .WEN(1'b0),                // 写入使能
     .CEN(1'b1),                // 时钟使能
@@ -126,7 +126,7 @@ SimpleRAM #
 )
 DMEM
 (
-    .CLK(~clock),               // 时钟输入
+    .CLK(clock),               // 时钟输入
     .RST(reset),               // 复位输入
     .WEN(DataEnable),          // 写入使能
     .CEN(1'b1),                // 时钟使能
@@ -148,7 +148,7 @@ always @(posedge clock) begin
         IF:
         begin
             status <= ID;
-            instruction <= CodeOutput;
+            #1 instruction <= CodeOutput;
         end
         ID:
         begin
@@ -275,12 +275,14 @@ always @(posedge clock) begin
             end
             7'b0100011: // Store
             begin
-                status <= MM;
+                status <= WB;
                 PCNext <= PC + 4;
                 case (instruction[14 : 12])
                     3'b010:
                     begin
                         DataAddrIO <= IntegerALUResult;
+                        DataInsert <= Rs2RegisterOutput;
+                        DataEnable <= 1'b1;
                     end
                 endcase
             end
@@ -314,19 +316,8 @@ always @(posedge clock) begin
                 case (instruction[14 : 12])
                     3'b010:
                     begin
-                        DstRegisterInsert <= DataOutput;
+                        #1 DstRegisterInsert <= DataOutput;
                         IntegersEnable <= 1'b1;
-                    end 
-                endcase
-            end
-            7'b0100011: // Store
-            begin
-                status <= WB;
-                case (instruction[14 : 12])
-                    3'b010:
-                    begin
-                        DataInsert <= Rs2RegisterOutput;
-                        DataEnable <= 1'b1;
                     end 
                 endcase
             end
