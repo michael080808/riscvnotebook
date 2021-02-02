@@ -153,22 +153,6 @@ always @(posedge clock) begin
         ID:
         begin
             case(instruction[6 : 0])
-            7'b0110111: // LUI
-            begin
-                status <= EX;
-            end
-            7'b0010111: // AUIPC
-            begin
-                status <= EX;
-            end
-            7'b1101111: // JAL
-            begin
-                status <= EX;
-            end
-            7'b1100111: // JALR
-            begin
-                status <= EX;
-            end
             7'b1100011: // Branch
             begin
                 status <= EX;
@@ -220,7 +204,7 @@ always @(posedge clock) begin
         end
         EX:
         begin
-            case(instruction[6 : 0])
+            casez(instruction[6 : 0])
             7'b0110111: // LUI
             begin
                 status <= WB;
@@ -286,14 +270,7 @@ always @(posedge clock) begin
                     end
                 endcase
             end
-            7'b0010011: // OP-IMM
-            begin
-                status <= WB;
-                PCNext <= PC + 4;
-                DstRegisterInsert <= IntegerALUResult;
-                IntegersEnable <= 1'b1;
-            end
-            7'b0110011: // OP
+            7'b0zz10011: // OP & OP-IMM
             begin
                 status <= WB;
                 PCNext <= PC + 4;
