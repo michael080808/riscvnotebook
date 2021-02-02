@@ -107,7 +107,7 @@ DMEM
     .RST(reset),               // 复位输入
     .WEN(DataEnable),          // 写入使能
     .CEN(1'b1),                // 时钟使能
-    .ADDR_F(IntegerALUResult[DMEMW - 1 : 0]), // 内存地址
+    .ADDR_F(IntegerALUResult[DMEMW + 1 : 2]), // 内存地址
     .DATA_I(DataInsert),       // 数据输入
     .DATA_O(DataOutput)        // 数据输出
 );
