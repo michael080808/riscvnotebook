@@ -4,7 +4,6 @@ module Testbench();
 
 reg            clock = 1'b0;
 reg            reset = 1'b1;
-wire [31 : 00] led_o;
 
 Top #
 (
@@ -13,8 +12,7 @@ Top #
 CPU
 (
     .clock(clock),
-    .reset(reset),
-    .led_o(led_o)
+    .reset(reset)
 );
 
 always  #5    clock <= ~clock;
