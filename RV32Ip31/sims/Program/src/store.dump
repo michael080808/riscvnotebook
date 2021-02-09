@@ -1,0 +1,22 @@
+
+store:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+80000000 <_start>:
+80000000:	40000297          	auipc	t0,0x40000
+80000004:	00028293          	mv	t0,t0
+80000008:	12345337          	lui	t1,0x12345
+8000000c:	67830313          	addi	t1,t1,1656 # 12345678 <_start-0x6dcba988>
+80000010:	0062a023          	sw	t1,0(t0) # c0000000 <var>
+80000014:	87654337          	lui	t1,0x87654
+80000018:	32130313          	addi	t1,t1,801 # 87654321 <var+0xc7654321>
+8000001c:	0002a383          	lw	t2,0(t0)
+80000020:	006383b3          	add	t2,t2,t1
+
+Disassembly of section .data:
+
+c0000000 <var>:
+c0000000:	0000                	unimp
+c0000002:	0000                	unimp
