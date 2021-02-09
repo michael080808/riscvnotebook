@@ -12,8 +12,7 @@ module Top #
 )
 (
     input  wire                 clock,                      // 时钟输入
-    input  wire                 reset,                      // 复位输入: 高电平重置
-    output reg  [WIDTH - 1 : 0] led_o                       // LED输出信号寄存器
+    input  wire                 reset                       // 复位输入: 高电平重置
 );
 
 /*
